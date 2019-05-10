@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- HEAD -->
+  <head>
+
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- TITLE -->
+    <title>Kristen Okun | Projects</title>
+
+    <!-- IMPORT BOOTSTRAP & JQUERY -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- IMPORT CSS STYLESHEET -->
+    <link href="myweb.css" type="text/css" rel="stylesheet">
+
+    <!-- FONTS -->
+    <!-- font-family: 'Open Sans', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- font-family: 'Abel', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css?family=Abel rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="kfav4.ico" type="image/x-icon">
+
+  </head>
+
+  <!-- BODY -->
+  <body>
+
+    <div class="bar"></div>
+
+    <div class="container content-wide" id="projects" style="min-height: 700px;">
+      <h5 class="section">projects</h5>
+      <p>
+        <h6 class="title">Rutgers Creative Writing Club Website</h6>
+        <ul>
+          <li class="tech">HTML</li>
+          <li class="tech">CSS</li>
+          <li class="tech">Bootstrap</li>
+          <li class="tech">Amazon S3</li>
+          <li class="prjlinks"><a class="btn" data-toggle="collapse" href="#RCWCSite" role="button" aria-expanded="false" aria-controls="RCWCSite">
+            About This Project
+          </a></li>
+        </ul>
+        <div class="collapse" id="RCWCSite">
+          <div class="card card-body">
+            <img src="rcwcsite.png"/>
+            I developed a static website using HTML, CSS, and Bootstrap for the Rutgers Creative Writing Club. The site is hosted using Amazon S3. The function of this website is to:
+            <br /><br />
+            &#8226; Announce meeting information<br />
+            &#8226; State the organization's purpose<br />
+            &#8226; Inform students of writing-related events hosted by the university and other student organizations<br />
+            &#8226; Provide the organization's contact information and links to social media<br />
+            &#8226; Maintain a list of writing resources and past workshop topics<br />
+            <br />
+            <a class="btn" href="http://ruwriting.club/" target="_blank" style="width: 100px; margin: auto;">View Site</a>
+          </div>
+        </div>
+      </p>
+      
+      <p>
+        <h6 class="title">Hermes: Emergency Messenger System for Educators</h6>
+        <ul>
+          <li class="tech">HTML</li>
+          <li class="tech">CSS</li>
+          <li class="tech">JSP</li>
+          <li class="tech">MySQL</li>
+          <li class="tech">Amazon RDS</li>
+          <li><a class="btn" data-toggle="collapse" href="#Hermes" role="button" aria-expanded="false" aria-controls="Hermes">
+            About This Project
+          </a></li>
+        </ul>
+        <div class="collapse" id="Hermes">
+          <div class="card card-body">
+            <img src="hermes.png">
+            <br>
+            <b>JPMorgan Chase Best Hack for Social Good Award<br />
+            HackHERS 2018 By Women for Women Award</b>
+            <br>
+            HackHERS is a 24-hour women-centric hackathon hosted annually at Rutgers University. During this event, I independently designed Hermes, a messenger system for use by educators during emergency situations. Even after the police have been called and the school goes into lockdown or evacuation procedures, there is no effective way for administrators and educators to communicate, often leaving teachers wondering what exactly is happening during an emergency. This application is designed to provide administrators and educators an efficient method of communicating vital information. I implemented the web application using HTML and CSS. I also created a MySQL database to hold login information, class rosters, updates, and reports using the Relational Database Service from Amazon Web Services. I planned to use JSP to connect the database to the front end.
+            <br /><br />
+            Below is a walkthrough of the site's functions.
+            <br /><br />
+            <img src="login.png">
+            <br>
+            Login Page: The login page provides fields for teachers and administrators to input their usernames and passwords to log into their individual accounts.
+            <br><br>
+            <img src="home.png">
+            <br>
+            Home Page: The home page features a large yellow box at the top, which will contain reports of emergencies and important updates from administrators. There are also buttons to six other pages to report emergencies, input and receive updates, report missing students, check in with their class's location, view the roster for that class period, and view account information.
+            <br><br>
+            <img src="report.png">
+            <br>
+            Report Emergency Page: On the report emergency page, educators can report any kind of emergency situtation or drill. The type of emergencies in the dropdown are "active shooter," "fire," "bomb threat," and "other." If there is another kind of emergency, the teacher can input specific details. The teacher can also specify whether the event is a drill, and the location of the emergency within the school so others know to avoid the area.
+            <br><br>
+            <img src="updates.png">
+            <br>
+            Updates Page: The updates page features emergency reports and updates provided by administrators and educators. Unlike the front page, where only the most important updates are provided, updates input by all teachers will be shown.
+            <br><br>
+            <img src="missing.png">
+            <br>
+            Report Missing Student Page: During evacuation or lockdown drills, there are often students out of their designated classrooms, such as when they leave for the restroom. This page provides a form for teachers to report a student missing, and for any teacher that pulled a student into their class during an emergency to account for that student. This ensures all students are properly accounted for.
+            <br><br>
+            <img src="checkin.png">
+            <br>
+            Class Check-In Page: The class check-in page allows teachers to alert their administrators of their class's location, and that their class is safe. During lockdowns, the location could be either the teacher's assigned classroom for that period, or perhaps elsewhere, like the auditorium. During evacuation drills, the teacher can report their outdoor location.
+            <br><br>
+            <img src="roster.png">
+            <br>
+            Roster Page: A teacher's account will hold rosters for all of their classes. Which class roster is shown depends on the time of day, and what class is occuring during that time.
+            <br><br>
+            <img src="account.png">
+            <br>
+            Account Page: The account page shows all of the teacher's account information and a logout button.
+          </div>
+        </div>
+      </p>
+      
+      <p>
+        <h6 class="title">Path to STEM</h6>
+        <ul>
+          <li class="tech">Ionic framework</li>
+          <li><a class="btn" data-toggle="collapse" href="#PathToSTEM" role="button" aria-expanded="false" aria-controls="PathToSTEM">
+            About This Project
+          </a></li>
+        </ul>
+        <div class="collapse" id="PathToSTEM">
+          <div class="card card-body">
+            
+            <img src="Path2STEM.png" alt="Path to STEM" class="pimage" />
+            <br />
+            HackHERS 2017 Best Beginner Hack Award
+            <br /><br />
+            HackHERS is a 24-hour women-centric hackathon hosted annually at Rutgers University. During the course of the event, I collaborated with three of my peers in order to create a project that earned the Best Beginner Hack Award. Path to STEM is a mobile app game designed for children. The player chooses one of two cute, blob-shaped avatars named Sam Taylor and Echo Mac (their initials spell STEM!). Then, the player is presented with a series of questions about their interests, related to both school subjects and their hobbies. At the end of the questionnaire, the player is presented with a potential college major that correlates to their interests, and a list of career paths that could be pursued with that particular degree. The application was created using the Ionic open source framework.
+            <br /><br />
+            Below is an example of a playthrough of the game.
+            <br /><br /><br />
+            <img src="p2s1.png" alt="Path to STEM" /><br />
+            <img src="p2s2.png" alt="Path to STEM" /><br />
+            <img src="p2s3.png" alt="Path to STEM" /><br />
+            <img src="p2s4.png" alt="Path to STEM" />
+          </div>
+        </div>
+      </p>
+      
+      <div style="text-align: center;">
+        <a class="btn" href="index.html" style="margin-top: 40px;">Return Home</a>
+      </div>
+
+    </div>
+
+  </body>
+</html>
